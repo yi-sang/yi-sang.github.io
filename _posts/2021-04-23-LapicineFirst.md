@@ -184,7 +184,7 @@ typora-root-url: ../
 
 주말이나 생각나거나 멘탈나가면 다시 2차후기 쓰겠습니다
 
-![img](https://postfiles.pstatic.net/MjAyMTAzMjRfMjM5/MDAxNjE2NTg0OTMxNDM0.INWkXKPDLDILaDOM9G85Y6rEXHgBVNPl5cv6EYuDOpkg.ku85IwyYhKPbGpp5H8rxBdJ4qQY8qmC3LX0k0gXPWIgg.PNG.westernize/SE-03acb301-f31d-4b91-b726-27d153f1b1b1.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/132390070-1911d5c4-92b5-4a0a-a451-719cdb74d737.png)
 
 > 이때까진 조금 설렜음
 
