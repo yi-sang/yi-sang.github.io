@@ -3,6 +3,16 @@
 
 @import "main.scss";
 
+.category {
+	.active a {
+		color: white;
+		background: black;
+	}
+	.inactive a {
+		color: grey;
+	}
+}
+
 #navbar {
     opacity: 0.95;
 }

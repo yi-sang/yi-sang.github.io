@@ -16,26 +16,33 @@ layout: compress
                 {% include blogpage-heading.html %}
             </div>
         </div>
-	<div class="col -lg-r col-md-2", style = "font: bolder 1.5em/1em denished black">
+	<div class="col -lg-4 col-md-2", style = "font: bolder 1.5em/1em denished black">
 		<ul class="category">
-			<li class = "active">
-				<a href="/blog/">All ({{site.posts | size}})</a>
-			</li>
-		{% for category in site.categories %}
-			<li class = "inactive">	
-			<a href="/category/{{ category | first }}">
-				{{ category | first }} ({{ category | last | size}})</a>
-			</li>
-		{% endfor %}
+                        <li class = "inactive">
+                                  <a href="/blog/">All ({{site.posts | size}})</a>
+                        </li>
+			{% for category in site.categories %}
+	   	 		<li {% if category[0] == page.category %}
+	     				class="active"
+	    	 		{% else if category[0] != page.category %}
+	     				class="inactive"
+		     		{% endif %}>
+			    		<a href="/category/{{ category | first }}">
+				   		{{ category | first }} ({{ category | last | size }})
+		  			</a>
+	  	 		 </li>
+	  	  	{% endfor %}
 		</ul>
 	</div>
+
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% for post in site.posts %}
+       {% for post in site.categories[page.category] %}
             {% include blog-card.html %}
         {% endfor %}
-        </div>
+       	</div>
     </section>
+    	
     <br>
     <!--Footer begins here-->
     {% include footer.html %}

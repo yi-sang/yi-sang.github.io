@@ -2,16 +2,17 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://yi-sang.github.io'
+url: 
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:  
 
 # Title of the Site
-title: 꿈 속 코딩
+title: Dream Developer 
 # Description of the Site
-description: 내 인생 어디가?
+description: Present Modally
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: https://user-images.githubusercontent.com/80687913/132556599-a5cb5a9a-bd2e-47c0-8652-f9117bf9775f.jpeg
+# /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -22,32 +23,32 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: sanghyle@icloud.com 
+# facebook_username: 
+# twitter_username: 
+instagram_username: yi___sang
+# linkedin_username: 
+github_username:  yi-sang
+#youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: /
 
 # Name of the Author
 author-name: Hyle
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: https://user-images.githubusercontent.com/80687913/132556599-a5cb5a9a-bd2e-47c0-8652-f9117bf9775f.jpeg
 # 60 Words About the Author
 author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: 
 
 # SASS
 sass:
