@@ -57,10 +57,8 @@ sass:
 
 # Build settings
 plugins:
-  #  - jekyll-admin
+  - jekyll-admin
   - jekyll-feed
-  - github-pages"
-  - kramdown-parser-gfm
 
 # Permalink
 permalink: "blog/:title"
