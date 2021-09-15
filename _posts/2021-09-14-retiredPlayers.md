@@ -8,8 +8,6 @@ categories: ['Algorithm']
 
 tags: ['stack', 'collection', 'dictionary', 'hash']
 
-toc: true
-
 ---
 
 # 완주하지 못한 선수
