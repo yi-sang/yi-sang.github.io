@@ -1,14 +1,14 @@
-\---
+---
 
-title: '완주하지 못한 선수'
+title: '위장'
 
 post-image: ../assets/images/algorithmStudy.jpg
 
 categories: ['Algorithm']
 
-tags: ['stack', 'collection', 'dictionary', 'hash']
+tags: ['stack', 'dictionary', 'hash']
 
-\---
+---
 
 # 위장
 
