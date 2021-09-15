@@ -2,7 +2,7 @@
 
 title: '완주하지 못한 선수'
 
-post-image: /assets/images/algorithmStudy.jpg
+post-image: assets/images/algorithmStudy.jpg
 
 categories: ['Algorithm']
 
