@@ -2,7 +2,7 @@
 
 title: '완주하지 못한 선수'
 
-post-image: https://user-images.githubusercontent.com/80687913/132390070-191    1d5c4-92b5-4a0a-a451-719cdb74d737.png
+post-image: /assets/images/algorithmStudy.jpg
 
 categories: ['Algorithm']
 
