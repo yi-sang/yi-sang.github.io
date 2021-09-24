@@ -1,5 +1,4 @@
 ---
-
 title: '야곰 코드 스타터 캠프 후기'
 
 post-image: https://user-images.githubusercontent.com/80687913/133467157-a4a52adf-60b3-4a11-9e21-5b065ccc298d.png

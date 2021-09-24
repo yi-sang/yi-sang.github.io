@@ -1,5 +1,4 @@
 ---
-
 title: '위장'
 
 post-image: ../assets/images/algorithmStudy.jpg
@@ -7,7 +6,6 @@ post-image: ../assets/images/algorithmStudy.jpg
 categories: ['Algorithm']
 
 tags: ['stack', 'dictionary', 'hash']
-
 ---
 
 # 위장
@@ -64,6 +62,8 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 2. blue_sunglasses
 3. smoky_makeup
 ```
+
+
 
 ## On my way
 
