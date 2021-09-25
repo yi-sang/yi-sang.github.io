@@ -49,8 +49,6 @@ for first in range(N):
     for third in range(second+1, N):
       if array[first] + array[second] + array[third] <= M:
         totalSum = max(totalSum, array[first] + array[second] + array[third])
-      else:
-        continue
 
 print(totalSum)
 ```
@@ -70,8 +68,7 @@ for num in combinations(arr, 3):
   tmp_sum = sum(num)
   if res < tmp_sum <= m:
     res = tmp_sum
+    
 print (res)
-
-
 ```
 
