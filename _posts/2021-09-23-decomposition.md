@@ -39,7 +39,7 @@ else:
   print(0)
 ```
 
-`for - else, while - else`
+💡`for - else, while - else`
 
 ## On other way
 
