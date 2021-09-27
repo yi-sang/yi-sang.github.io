@@ -5,12 +5,12 @@
 - name: Personal Project
   image: https://user-images.githubusercontent.com/80687913/133937096-953e39e0-0398-4f45-a947-922fd9a3433d.jpg
   link: https://github.com/yi-sang/Wemeet
-  description: This has sparked my interest. I gained confidence. 
+  description: First app to configure ui as I thought. Since then, I have had fun in earnest.
 - name: Cooperation Project 
   link: https://github.com/yi-sang/Martini
   image: https://user-images.githubusercontent.com/80687913/133937103-67e56f2c-e32c-4a5d-aef1-ce4e1d340884.jpg
-  description: Collaboration using Git and TrelloI and XcodeGen. Ended up with colleagues.
+  description: Collaborated with 4 iOS developers using Git and Trello and XcodeGen.
 - name: Cooperation Project
   link: https://github.com/PORTFOLIAN/Portfolian-IOS
   image: https://user-images.githubusercontent.com/80687913/134959416-f25ca0cc-c77d-41b9-9e60-51f4c2584be2.jpg 
-  description: This is a collaborative project with Front-end, Back-end, and Android developer.
+  description: Collaborated with five developers Front-end, two Back-end, and Android, iOS(me).
