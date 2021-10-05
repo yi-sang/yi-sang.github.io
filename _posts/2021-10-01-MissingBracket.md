@@ -1,11 +1,11 @@
 ---
-title: ''
+title: '잃어버린 괄호'
 
 post-image: ../assets/images/algorithmStudy.jpg
 
 categories: ['Algorithm']
 
-tags: ['']
+tags: ['그리디']
 
 ---
 

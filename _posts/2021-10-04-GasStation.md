@@ -1,4 +1,16 @@
-# 주유소 성공
+---
+title: '주유소'
+
+post-image: ../assets/images/algorithmStudy.jpg
+
+categories: ['Algorithm']
+
+tags: ['그리디']
+
+
+---
+
+# 주유소
 
 # 문제
 
