@@ -1,5 +1,5 @@
 ---
-title: '회의실 배정'
+title: '회의실 배정 - 1931'
 
 post-image: ../assets/images/algorithmStudy.jpg
 

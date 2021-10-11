@@ -1,5 +1,5 @@
 ---
-title: '수 정렬하기 3'
+title: '수 정렬하기 3 - 10989'
 
 post-image: ../assets/images/algorithmStudy.jpg
 

@@ -1,5 +1,5 @@
 ---
-title: '잃어버린 괄호'
+title: '잃어버린 괄호- 1541'
 
 post-image: ../assets/images/algorithmStudy.jpg
 

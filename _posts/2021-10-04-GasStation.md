@@ -1,5 +1,5 @@
 ---
-title: '주유소'
+title: '주유소 - 13305'
 
 post-image: ../assets/images/algorithmStudy.jpg
 
