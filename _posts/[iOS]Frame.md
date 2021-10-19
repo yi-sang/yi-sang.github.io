@@ -1,7 +1,7 @@
 ---
 title: ''
 
-post-image: ../assets/images/Apple-iOS.jpg
+post-image: ../assets/images/Apple-iOS.png
 
 categories: ['iOS']
 
