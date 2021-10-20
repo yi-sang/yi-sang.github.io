@@ -57,9 +57,7 @@ mkdir ~/swift_package cd ~/swift_package
 
 [Swift.org - Download Swift](https://swift.org/download/#releases) 들어가서 본인 버전에 마우스를 대고 오른쪽 마우스를 눌러 링크복사를 클릭한다.
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfMjk5/MDAxNjIzOTYxNTE1ODUw.YuxXby-9EEta9JhAUarX1O-HtINT8D_oXBZIz1toBAYg.amruMHXb4egEuf85S6dNFpAVr3vw9o6ik9297hNjMgkg.PNG.westernize/image.png?type=w773)
-
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfMzAw/MDAxNjIzOTYxNTc3MTc2.xf-ExTbegeVdGVt1y-ludFnQLkGo1Txk-tOJk2o5GW4g.naubmRgEY1m6lsOhs61NWk4R5-0k5rl-sZpQWShgA_0g.PNG.westernize/image.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/138136035-48c8b558-c84e-44d6-a470-d213c7466e52.png)
 
 wget을 이용해서 다운로드한다. (wget 뒤에 복사한 링크 ctrl + v)
 
@@ -83,7 +81,7 @@ ls(list) 명령어를 통해 swift-5.4.1 폴더가 있는지 확인한다.
 
 cd /opt ls
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfMjA4/MDAxNjIzOTYyMjE5Mjkw.kONSXzhcn7TUr-ZReFtPd2IW8M-rUAu0Ho-r2al_srIg.qvTwRp70BunHw0pb1QNxW19NPigBeq_ejunYaptqOwog.PNG.westernize/image.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/138136148-71472d50-1ce3-48bf-9387-fdff4b3fad26.png)
 
 vim 을 이용해 .bashrc를 열어주고 파일 맨 밑에 환경 변수를 등록해준다. (기본)
 
@@ -111,7 +109,7 @@ source ~/.bashrc﻿ source ~/.zshrc
 
 swift --version
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfNzMg/MDAxNjIzOTYzMTA1Nzc4.kc72dsXV15Nu5s7H5aSfJSac7ALTubT9P92mGv0BgQcg.ET_dt1yuXWz2sm-9CvhKcZOfhFQEyG4Q7Uj_1PfJpMsg.PNG.westernize/image.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/138136188-5a05f887-356f-4d51-9a3c-2c7c0b8ee6f6.png)
 
 파이썬을 설치해준다.
 
@@ -125,17 +123,17 @@ apt-get install libpython-dev
 
 swift print("hello world!!") 1 + 1 :q
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfMTM1/MDAxNjIzOTYzNTAxNzUz.Z2MbDg2OFb7YXxX_8BJq_Et3UMY4FZLLGeU81JS61z4g.HaK-MoCoF6dj6gxtqE6AXbLatM6HZ3tbl0iReQrx7AUg.PNG.westernize/image.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/138136215-d5630271-96fa-4198-96c0-96a49a46959f.png)
 
 스위프트 파일을 vim을 이용해서 만들어주고 실행한다.
 
 vim test.swift
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfMTYz/MDAxNjIzOTYzOTMwNjQ2.Hj9s_SGGX03jp-T6mMSPkXOdw9oFpgaYC9fLb8WPUcsg.Alajv0-l3IoN6SYhVPQP58qUgZfUVHS516IRBxWOYNAg.PNG.westernize/image.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/138136254-71dc7211-e6e8-436f-b529-2d8e1167fa1b.png)
 
 swift test.swift
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MThfMTEg/MDAxNjIzOTYzOTY5NzY2.OvJH6gD1deLviWMfx0f1UjFzFnHw7iV2hKfjPDG67Cog.CyDxNxf6oGmNuwpK9CFmVfgxLJ1uDgMIRkeOBZ0YHAsg.PNG.westernize/image.png?type=w773)
+![image](https://user-images.githubusercontent.com/80687913/138136282-fe0911fe-8b7f-4993-8942-3b1736e607f4.png)
 
 
 

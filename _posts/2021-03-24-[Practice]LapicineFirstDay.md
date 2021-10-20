@@ -2,7 +2,7 @@
 title: '라피신 첫 날의 절망적 후기'
 categories: ['Practice']
 post-image: ../assets/images/LapicineFirstDay.png
-tags: ["스위프트", "ubuntu"]
+tags: ["42seoul", "lapicine", "라피신"]
 ---
 
 와 내가 **블로그**라는 걸 쓰게 될 줄은 몰랐다.
