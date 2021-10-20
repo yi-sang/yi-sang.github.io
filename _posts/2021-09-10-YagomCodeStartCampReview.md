@@ -1,12 +1,8 @@
 ---
 title: '야곰 코드 스타터 캠프 후기'
-
 post-image: https://user-images.githubusercontent.com/80687913/133467157-a4a52adf-60b3-4a11-9e21-5b065ccc298d.png
-
 categories: ['Retrospect']
-
 tags: ["야곰아카데미", "스위프트", "Swift", "코딩", "iOS", "아이폰", "앱개발", "부트캠프"]
-
 ---
 
 # 야곰 코드 스타터 캠프 후기

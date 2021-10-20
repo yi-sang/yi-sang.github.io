@@ -1,10 +1,7 @@
 ---
 title: '소트인사이드 - 1427'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['정렬']
 ---
 

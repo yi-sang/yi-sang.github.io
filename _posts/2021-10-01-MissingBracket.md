@@ -1,12 +1,8 @@
 ---
 title: '잃어버린 괄호- 1541'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['그리디']
-
 ---
 
 # 잃어버린 괄호

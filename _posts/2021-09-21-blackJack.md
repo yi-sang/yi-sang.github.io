@@ -1,10 +1,7 @@
 ---
 title: '블랙잭 - 2789'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['브루트 포스']
 ---
 

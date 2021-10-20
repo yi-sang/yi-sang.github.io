@@ -1,12 +1,8 @@
 ---
 title: '수 정렬하기 - 2750'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['정렬']
-
 ---
 
 # 수 정렬하기

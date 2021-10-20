@@ -1,10 +1,7 @@
 ---
 title: '위장'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['stack', 'dictionary', 'hash']
 ---
 

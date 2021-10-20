@@ -1,10 +1,7 @@
 ---
 title: '완주하지 못한 선수'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['stack', 'collection', 'dictionary', 'hash']
 ---
 

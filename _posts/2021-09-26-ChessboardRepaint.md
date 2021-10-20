@@ -1,13 +1,8 @@
 ---
 title: '체스판 다시 칠하기 - 1018'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['브루트 포스']
-
-
 ---
 
 # 체스판 다시 칠하기

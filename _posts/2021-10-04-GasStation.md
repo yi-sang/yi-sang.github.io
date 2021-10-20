@@ -1,13 +1,8 @@
 ---
 title: '주유소 - 13305'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['그리디']
-
-
 ---
 
 # 주유소

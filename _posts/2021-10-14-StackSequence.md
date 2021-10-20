@@ -1,13 +1,8 @@
 ---
 title: '스택 수열 - 1874'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['스택']
-
-
 ---
 
 # 스택 수열

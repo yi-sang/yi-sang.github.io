@@ -1,13 +1,8 @@
 ---
 title: '오큰수 - 17298'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['스택']
-
-
 ---
 
 # 오큰수

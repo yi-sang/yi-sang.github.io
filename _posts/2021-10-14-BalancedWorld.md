@@ -1,13 +1,8 @@
 ---
 title: '균형잡힌 세상 - 4949'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['스택']
-
-
 ---
 
 # 균형잡힌세상

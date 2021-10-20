@@ -1,12 +1,8 @@
 ---
 title: '좌표 정렬하기 - 11650'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['정렬']
-
 ---
 
 # 좌표 정렬하기

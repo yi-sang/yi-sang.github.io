@@ -1,12 +1,8 @@
 ---
 title: '좌표 압축 - 18870'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['정렬']
-
 ---
 
 # 좌표 압축

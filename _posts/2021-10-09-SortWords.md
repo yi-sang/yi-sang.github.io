@@ -1,12 +1,8 @@
 ---
 title: '단어 정렬 - 1181'
-
 post-image: ../assets/images/algorithmStudy.jpg
-
 categories: ['Algorithm']
-
 tags: ['정렬']
-
 ---
 
 # 단어 정렬
