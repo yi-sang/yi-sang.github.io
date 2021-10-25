@@ -20,11 +20,8 @@ UIKit App 상태는 다음과 같이 나눠집니다.
 
 ![1*QW4wCQMLo8wUDLBBAd-mwA](https://user-images.githubusercontent.com/80687913/138248442-291bdc29-c80f-4f1d-b9aa-cca4e9555ace.jpeg)
 
--   
-
 -   **Not Running** : 앱이 실행되지 않은 상태거나 System에 의해 종료되어진 상태
--   **Foreground상태** : APP이 실행되어 사용자에게 보여지고 있는 상태(	In-Active와 Active를 합쳐서 Foreground 라고 함)
--   )
+-   **Foreground상태** : APP이 실행되어 사용자에게 보여지고 있는 상태(In-Active와 Active를 합쳐서 Foreground 라고 함)
     -   오직 하나의 App만 Foreground 상태를 가지며 Inactive, Active 상태로 나뉘어집니다.
         -   **Inactive** 앱이 실행중이지만 아직 아무런 이벤트를 받지 않은 상태 (Foreground 상태에서 전화가 왔을때, 잠금상태, 멀티태스킹 스크린)
         -   **Active** 앱이 실행중이며 현재 이벤트를 받고 있고 발생한 상태
@@ -39,7 +36,7 @@ UIKit App 상태는 다음과 같이 나눠집니다.
 
 \- 앱을 켜지 않은 상태에서도 푸쉬, 메세지가 오는 것은 서버에서 보낸 신호를, 시스템이  받아서 하는 것
 
- \- 음악 어플 같은 경우, background 상태로 켜져있어야하기 때문에 프로젝트 설정에서 background실행이 필수이다.
+\- 음악 어플 같은 경우, background 상태로 켜져있어야하기 때문에 프로젝트 설정에서 background실행이 필수이다.
 
 
 

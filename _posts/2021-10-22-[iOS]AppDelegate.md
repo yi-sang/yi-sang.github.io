@@ -85,7 +85,7 @@ iPad에서 **multi window**를 지원하면서 앱은 하나의 프로세스만�
 
 -    **func** applicationWillResignActive(**_** application: UIApplication)
 
-    **foreground > background로 진입할 때 발생.**
+    **foreground > background로 진입할 때 발생.****
 
  
 
