@@ -18,14 +18,24 @@ iOS 13 이후 버전에서 Scene Delegate가 생겨나면서 넘겨주었습니�
 ## iOS 13 이전 버전
 
 -   AppDelegate
+
+    
+
     -   Process Lifecycle
+
+        
+
         -   App Launched
         -   App Terminated
+
+    
+
     -   UI Lifecycle
+
+        
+
         -   Entered Foreground
         -   Became active
-
----
 
 iOS 13 전에는 앱은 오직 "하나의 프로세스"와 그에 맞는 "하나의 UI"만 가지기 때문에 문제될 것이 없었지만
 
@@ -41,17 +51,28 @@ iPad에서 **multi window**를 지원하면서 앱은 하나의 프로세스만�
 
 더이상 UI Lifecycle과는 관련된것이 없기 때문입니다. 이 역할은 SceneDelegate에게 넘겨주게 되었습니다,
 
----
-
 ## **iOS 13 이후 버전**
 
 -   AppDelegate
+
     -   Process Lifecycle
+
     -   Session Lifecycle
+
+        
+
         -   Session Created
+
         -   Session Discarded
+
+            
+
 -   SceneDelegate
+    
     -   UI Lifecycle
+        
+        
+        
         -   Entered Foreground
         -   Become active
 
@@ -75,27 +96,17 @@ iPad에서 **multi window**를 지원하면서 앱은 하나의 프로세스만�
 
     **앱이 실행되었을 때 최초 1회 발생하는 함수** 
 
- 
-
 -   **func** applicationDidBecomeActive(**_** application: UIApplication)
 
     **background > foreground로 진입한 이후 발생,** 
 
- 
+-    **func** applicationWillResignActive(**_** application: UIApplication) 
 
--    **func** applicationWillResignActive(**_** application: UIApplication)
+     **foreground > background로 진입할 때 발생.**
 
-    **foreground > background로 진입할 때 발생.****
+-    **func** application(**_** application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: **Any**], fetchCompletionHandler completionHandler: **@escaping** (UIBackgroundFetchResult) -> Void)
 
- 
-
--    **func** application(**_** application: UIApplication,
-
-    didReceiveRemoteNotification userInfo: [AnyHashable: **Any**],
-
-    fetchCompletionHandler completionHandler: **@escaping** (UIBackgroundFetchResult) -> Void) 
-
-    **Push알림을 받고 탭해서 앱으로 진입했을 때 payload를 핸들링하는 함수**
+     **Push알림을 받고 탭해서 앱으로 진입했을 때 payload를 핸들링하는 함수**
 
 
 
