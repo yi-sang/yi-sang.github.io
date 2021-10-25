@@ -99,6 +99,11 @@ iPad에서 **multi window**를 지원하면서 앱은 하나의 프로세스만�
 
 
 
+>   iOS 13이후에는 SceneDelegate를 사용할 수 있다. 이는 햐나의 앱이 여러개의 UI를 띄울 수 있게 되면서, 이 UI가 별도의 생명주기를 가질 필요가 생겼기 때문으로 기존 AppDelegate가 수행했던 생명주기 관리의 많은 부분이 SceneDelegate로 옮겨가게 되었다. 여기서 AppDelegate는 앱의 초기 구동과 앱 전체에 관련된 이벤트의 처리정도 만을 담당하도록 기능이 축소되었다. 
+>   iOS 12 이하의 경우에는 여전히 생명주기 관리에 AppDelegate를 사용하며, iOS 13 이상이더라도 Scene을 지원하지 않게 만들었다면 여전히 AppDelegate를 사용한다.
+
+Scene을 지원하지 않는 경우, 모든 생명주기 관련 이벤트들은 appDelegate에 전달된다. appDelegate객체는 앱의 모든 window를 관리하기 때문에 앱의 상태 변화는 앱의 모든 UI에 영향을 미친다.
+
 # More
 
 [자세한 설명](https://zeddios.tistory.com/811)
