@@ -66,9 +66,9 @@ tags: ['iOS개발자 되기', '하루 두 개!']
 3.  앱을 다시 켠다: Background » In-Active >> Active
 4.  앱이 백그라운에 있다가 Suspended 상태로 전이: Active » In-Active » Background » Suspended
 
-**메소드 순서**
+**메소드 순서로 보면**
 
-**not running 상태에서 앱 실행하고 포어그라운드 직전에 [applicationDidFinishLaunching(_:)](https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623053-applicationdidfinishlaunching) 이 호출되고**
+**낫 러닝 상태에서 앱 실행하고 포어그라운드 직전에 [applicationDidFinishLaunching(_:)](https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623053-applicationdidfinishlaunching) 이 호출되고**
 
 **이제 포어그라운드에 진입할 때 [sceneWillEnterForeground(_:)](https://developer.apple.com/documentation/uikit/uiscenedelegate/3197918-scenewillenterforeground) 가 호출되면서 인액티브 상태가 된다.**
 
