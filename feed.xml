@@ -2,6 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+<channel>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   {% assign feed_path = "/feed.xml" %} <!-- 피드경로 명시 -->
     <title> {{ site.title | xml_escape }}  </title>
@@ -25,5 +26,6 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
-    {% endfor %}
+	      {% endfor %}
+      </channel>
 </rss>
