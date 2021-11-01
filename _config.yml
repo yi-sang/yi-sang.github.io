@@ -58,6 +58,7 @@ sass:
 
 # Build settings
 plugins:
+  - jekyll-sitemap
   - jekyll-admin
   - jekyll-feed
 

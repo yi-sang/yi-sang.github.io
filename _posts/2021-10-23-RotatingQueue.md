@@ -110,7 +110,7 @@ print(count)
 
 `list.index(n)` 해당하는 값의 인덱스를 구해준다. 사실 이게 생각이 잘 안 났다.
 
-## Wrong my way
+## On other way
 
 ```python
 from collections import deque

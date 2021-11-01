@@ -14,7 +14,7 @@ tags: ['']
 
 💡
 
-## Wrong my way
+## On other way
 
 ```python
 
