@@ -120,6 +120,4 @@ def solution(s):
 
 `return int(answer)` 프로그래머스에서는 "123"과 123은 다르다.
 
-## More
-
-[참고](https://otugi.tistory.com/101)
+https://otugi.tistory.com/101)
