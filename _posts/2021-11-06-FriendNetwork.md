@@ -1,7 +1,7 @@
 ---
 title: '친구 네트워크 - 4195'
 post-image: ../assets/images/algorithmStudy.jpg
-categories: ['Algorhm']
+categories: ['Algorithm']
 tags: ['해쉬','집합', '그래프']
 ---
 
