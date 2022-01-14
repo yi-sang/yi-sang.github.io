@@ -97,10 +97,4 @@ https://help.acmicpc.net/language/info
 
 파이썬은 실행 시간 x 3 + 2
 
-## On other way
-
-```python
-
-```
-
-💡
+💡 N(1 ≤ N ≤ 10,000,000)으로 크지만 수의 전체 범위가 10,000보다 작거나 같은 자연수로 적으므로 계수 정렬을 사용하기 적합하다.

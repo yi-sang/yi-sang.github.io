@@ -43,7 +43,7 @@ print(*output, sep='')
 
 ## On other way
 
-```python
+```Swift
 let n = Int(readLine()!)!
 var numberList: [Int] = []
 
@@ -59,6 +59,3 @@ for i in numberList {
 ```
 
 💡 거의 비슷하다 좀 더 익숙해지고 싶다.
-
-이렇게라도,,,
-
