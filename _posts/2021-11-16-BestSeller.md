@@ -1,5 +1,5 @@
 ---
-title: '베스트셀러'
+title: '베스트셀러 - 1302'
 post-image: ../assets/images/algorithmStudy.jpg
 categories: ['Algorithm']
 tags: ['탐색']
@@ -70,11 +70,6 @@ soul
 ## On my way
 
 ```python
-from array import array
-from ctypes.wintypes import tagMSG
-import numbers
-
-
 N = int(input())
 ls = []
 dict = {}

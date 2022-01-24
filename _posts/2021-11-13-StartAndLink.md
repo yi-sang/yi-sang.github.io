@@ -1,5 +1,5 @@
 ---
-title: '스타트와 링크'
+title: '스타트와 링크 - 14889'
 post-image: ../assets/images/algorithmStudy.jpg
 categories: ['Algorithm']
 tags: ['브루트포스']

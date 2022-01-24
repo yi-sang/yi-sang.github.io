@@ -1,5 +1,5 @@
 ---
-title: '문서 검색'
+title: '문서 검색 - 1543'
 post-image: ../assets/images/algorithmStudy.jpg
 categories: ['Algorithm']
 tags: ['탐색']
