@@ -5,7 +5,7 @@ post-image: ../assets/images/Swift-Logo.png
 tags: ["스위프트 기초 문법"]
 ---
 
-# 제네릭
+# 클로저
 
 ```swift
 import UIKit
