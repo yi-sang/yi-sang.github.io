@@ -10,11 +10,10 @@ tags: ['iOS개발자 되기', '하루 두 개!']
 
 # GCD API 동작 방식과 필요성
 
-
-
 ## OS 환경에서의 동시성 프로그래밍 지원 종류
 
 -   GCD (Grand Central Dispatch) : 멀티 코어와 멀티 프로세싱 환경에서 최적화된 프로그래밍을 할 수 있도록 애플이 개발한 기술이다.
+
 -   Operation Queue : 비동기적으로 실행되어야 하는 작업을 객체 지향적인 방법으로 사용한다.
 
 ## Grand Central Dispatch
@@ -43,7 +42,7 @@ tags: ['iOS개발자 되기', '하루 두 개!']
 
     >   isCancelled, isAsynchronous, isExecuting, isFinished, isReady, dependencies, queuePriority, completionBlock
 
--   GCD는 앞선 기능을 하지 못합니다. Operation Queue를 좀 더 쉽게 쓸 수 있도록 개발한 것으로 좀 더 오버헤드가 있지만 사용하기에 매우 간편하다.
+-   GCD는 앞선 기능을 하지 못한니다. Operation Queue를 좀 더 쉽게 쓸 수 있도록 개발한 것으로 좀 더 오버헤드가 있지만 사용하기에 매우 간편하다.
 
 #### When to Use `Operation`
 
