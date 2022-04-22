@@ -27,7 +27,7 @@ tags: ['스택']
 1 4 5 3 2
 
 ## On my way
-```Swift
+```swift
 import Foundation
 
 var N = Int(readLine()!)!
@@ -98,7 +98,7 @@ func rotRight(value: Int) {
 `array.insert(array.removeLast(), at: 0)`
 
 💡 나는 배열을 두개 사용했는데 클래스를 사용하는 것도 깔끔해보이긴 하는데 코테에서는 튜플을 이용하는 것이 좋을 것 같다.
-```Swift
+```swift
 class Ballon {
     var index: Int
     var value: Int
@@ -110,7 +110,7 @@ class Ballon {
 }
 ```
 
-```Swift
+```swift
 var tuple : ([Int], [Int]) = (array, seqArray)
 print("array: \(tuple.0), seqArray: \(tuple.1)")
 

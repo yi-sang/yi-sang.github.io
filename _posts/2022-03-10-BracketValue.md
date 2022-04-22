@@ -44,7 +44,7 @@ X와 Y 모두 올바른 괄호열이라면 이들을 결합한 XY도 올바른 �
 0
 
 ## On my way
-```Swift
+```swift
 import Foundation
 
 var array = Array(readLine()!).map { String($0) }
@@ -90,7 +90,7 @@ if !isVaild || !stack.isEmpty {
 }
 ```
 💡 String.Element?
-```Swift
+```swift
 var array = Array(readLine()!) 
 Cannot convert value of type 'String.Element' (aka 'Character') to expected argument type 'String'
 원래 이렇게 써봤는데 위와 같은 에러를 만났다.

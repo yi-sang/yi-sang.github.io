@@ -8,7 +8,7 @@ tags: ["스위프트", "코딩 테스트", "Swift"]
 # 출력
 `func print(_ items: Any..., separator: String = " ", terminator: String = "\n")`
 items - 여러 파라미터를 넣을 수 있음, separator - 구분자, terminator - end
-```Swift
+```swift
 let oneToFive = 1...5
 print(oneToFive)
 // Prints "1...5"

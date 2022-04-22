@@ -7,7 +7,7 @@ tags: ["스위프트", "코딩 테스트", "Swift"]
 
 # 문자열
 String은 Character로 구성되어 있다.
-```Swift
+```swift
 
 let str = "Hyle"
 print(type(of: str.first!))
@@ -15,7 +15,7 @@ print(type(of: str.first!))
 ```
 
 ## 1) 문자열 생성
-```Swift
+```swift
 var emptyString = ""
 var initEmptyString = String()
 
@@ -42,7 +42,7 @@ let banner = """
 //            (/"
 ```
 ## 2) 빈 문자열 확인
-```Swift
+```swift
 let emptyString = ""
 
 if emptyString.isEmpty {
@@ -52,7 +52,7 @@ if emptyString.isEmpty {
 ```
 
 ## 3) 문자열 수정
-```Swift
+```swift
 var helloWorld = "Hello, "
 helloWorld += "World"
 print(HelloWorld)
@@ -60,7 +60,7 @@ print(HelloWorld)
 ```
 
 ## 4) 문자열 개수
-```Swift
+```swift
 let str = "How many characters is this String"
 print(string.count)
 // Prints "34"
@@ -77,7 +77,7 @@ d의 위치인 9가 아닌 문자열의 전체 길이인 10을 반환하므로
 index(before: str.endIndex)나
 
 index(str.endIndex, offsetBy: -1)로 처리
-```Swift
+```swift
 var helloWorld = "Hello, World"
 
 print(helloWorld[helloWorld.startIndex])
@@ -98,7 +98,7 @@ print(helloWorld[helloWorld.index(after: helloWorld.startIndex)])
 
 ## 6) 문자열 슬라이싱
 Substring 인스턴스로 반환되기 때문에 String 인스턴스로 바꿔서 사용하자.
-```Swift
+```swift
 var helloWorld = "Hello, World"
 let index = helloWorld.firstIndex(of: ",") ?? helloWorld.endIndex
 
@@ -125,7 +125,7 @@ print(helloWorld[sameRange])
 // Prints ", World"
 ```
 ## 3-7) 문자열 삭제
-```Swift
+```swift
 var helloWorld = "Hello, World"
 
 let strRange = helloWorld.index(helloWorld.startIndex, offsetBy: 5) ... helloWorld.index(before: helloWorld.endIndex)
@@ -143,7 +143,7 @@ print(measurements)
 hasPrefix("H"): 문자열이 H로 시작하는지 확인 -> Bool 타입으로 반환
 
 hasSuffix("d"): 문자열이 d로 끝나는지 확인 -> Bool 타입으로 반환
-```Swift
+```swift
 var helloWorld = "Hello, World"
 print(helloWorld.hasPrefix("H"))
 // true

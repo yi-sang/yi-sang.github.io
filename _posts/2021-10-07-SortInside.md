@@ -43,7 +43,7 @@ print(*output, sep='')
 
 ## On other way
 
-```Swift
+```swift
 let n = Int(readLine()!)!
 var numberList: [Int] = []
 

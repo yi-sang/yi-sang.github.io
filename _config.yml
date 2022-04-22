@@ -1,10 +1,12 @@
 # WhatATheme
 markdown: kramdown
-
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 # URL of the Site
 url: https://yi-sang.github.io
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-# baseurl: https://yi-sang.github.io
+# ibaseurl: "/blog"
 # Title of the Site
 title: Dream Developer
 # Description of the Site
@@ -66,6 +68,8 @@ permalink: "blog/:title"
 # Compress
 compress_html:
   clippings: all
+
+
 
 # Defaults
 defaults:

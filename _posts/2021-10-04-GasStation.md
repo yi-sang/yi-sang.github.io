@@ -89,7 +89,7 @@ print(price)
 
 ## On other way
 
-```Swift
+```swift
 import Foundation
 
 let N = Int(readLine()!)!

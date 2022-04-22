@@ -26,7 +26,7 @@ Sequence프로토콜을 채택한 자료형은 어떠한 함수를 쓸 수 있�
 return (포함해 ? true : false)
 
 `func contains(Self.Element) -> Bool`
-```Swift
+```swift
 let cast = ["Vivien", "Marlon", "Kim", "Karl"]
 
 print(cast.contains("Marlon"))
@@ -39,7 +39,7 @@ print(cast.contains("James"))
 return ({ 조건 } 포함해 ? true : false)
 
 `func contains(where: (Self.Element) -> Bool) -> Bool`
-```Swift
+```swift
 let expenses = [21.37, 55.21, 9.32, 10.18, 388.77, 11.41]
 let hasBigPurchase = expenses.contains { $0 > 100 }
 // 'hasBigPurchase' == true
@@ -49,7 +49,7 @@ let hasBigPurchase = expenses.contains { $0 > 100 }
 return (모든 요소들이 만족해 ? true : false)
 
 `func allSatisfy((Self.Element) -> Bool) -> Bool`
-```Swift
+```swift
 let names = ["Sofia", "Camilla", "Martina", "Mateo", "Nicolás"]
 let allHaveAtLeastFive = names.allSatisfy({ $0.count >= 5 })
 // allHaveAtLeastFive == true
@@ -59,7 +59,7 @@ let allHaveAtLeastFive = names.allSatisfy({ $0.count >= 5 })
 return (처음 { 조건 } 만족하는 ? 요소 : nil)
 
 `func first(where: (Self.Element) -> Bool) -> Self.Element?`
-```Swift
+```swift
 let numbers = [3, 7, 4, -2, 9, -6, 10, 1]
 if let firstNegative = numbers.first(where: { $0 < 0 }) {
     print("The first negative number is \(firstNegative).")
@@ -71,7 +71,7 @@ if let firstNegative = numbers.first(where: { $0 < 0 }) {
 return (제일 작은 ? 요소 : nil()
 
 `func min() -> Self.Element?`
-```Swift
+```swift
 let heights = [67.5, 65.7, 64.3, 61.1, 58.5, 60.3, 64.9]
 let lowestHeight = heights.min()
 print(lowestHeight)
@@ -82,7 +82,7 @@ print(lowestHeight)
 return (제일 작은 ? 요소 : nil())
 
 `func min(by: (Self.Element, Self.Element) -> Bool) -> Self.Element?`
-```Swift
+```swift
 let hues = ["Heliotrope": 296, "Coral": 16, "Aquamarine": 156]
 let leastHue = hues.min { a, b in a.value < b.value }
 print(leastHue)
@@ -93,7 +93,7 @@ print(leastHue)
 return (제일 큰 ? 요소 : nil())
 
 `func max() -> Self.Element?`
-```Swift
+```swift
 let heights = [67.5, 65.7, 64.3, 61.1, 58.5, 60.3, 64.9]
 let greatestHeight = heights.max()
 print(greatestHeight)
@@ -104,7 +104,7 @@ print(greatestHeight)
 return (제일 큰 ? 요소 : nil())
 
 `func max(by: (Self.Element, Self.Element) -> Bool) -> Self.Element?`
-```Swift
+```swift
 let hues = ["Heliotrope": 296, "Coral": 16, "Aquamarine": 156]
 let greatestHue = hues.max { a, b in a.value < b.value }
 print(greatestHue)
@@ -116,7 +116,7 @@ print(greatestHue)
 return (0번째 요소부터 Int번째까지의 [Self.Element])
 
 `func prefix(Int) -> PrefixSequence<Self>`
-```Swift
+```swift
 let numbers = [1, 2, 3, 2, 4, 5]
 print(numbers.prefix(2))
 // Prints "[1, 2]"
@@ -133,7 +133,7 @@ print(type(of: str.prefix(2)))
 return (0번째 요소부터 { 조건 }을 만족하는 [Self.Element])
 
 `func prefix(while: (Self.Element) -> Bool) -> [Self.Element]`
-```Swift
+```swift
 let numbers = [3, 7, 4, -2, 9, -6, 10, 1]
 let positivePrefix = numbers.prefix(while: { $0 > 0 })
 // positivePrefix == [3, 7, 4]
@@ -143,7 +143,7 @@ let positivePrefix = numbers.prefix(while: { $0 > 0 })
 return (뒤의 요소부터 Int번째까지의 [Self.Element])
 
 `func suffix(Int) -> [Self.Element]`
-```Swift
+```swift
 let numbers = [1, 2, 3, 4, 5]
 print(numbers.suffix(2))
 // Prints "[4, 5]"
@@ -156,7 +156,7 @@ print(numbers.suffix(10))
 return (0번째 요소부터 Int번째까지의 요소를 탈락시키는 [Self.Element])
 
 `func dropFirst(Int) -> DropFirstSequence<Self>`
-```Swift
+```swift
 let numbers = [1, 2, 3, 4, 5]
 print(numbers.dropFirst(2))
 // Prints "[3, 4, 5]"
@@ -168,7 +168,7 @@ print(numbers.dropFirst(10))
 `func dropLast(Int) -> [Self.Element]`
 
 return (뒤의 요소부터 Int번째까지 요소를 탈락시키는 [Self.Element])
-```Swift
+```swift
 let numbers = [1, 2, 3, 4, 5]
 print(numbers.dropLast(2))
 // Prints "[1, 2, 3]"
@@ -180,7 +180,7 @@ print(numbers.dropLast(10))
 `func drop(while: (Self.Element) -> Bool) -> DropWhileSequence<Self>`
 
 return ({ 조건 } 에 부합하지 않을 때까지 0번째 요소부터 차례로 탈락시키는 [Self.Element])
-```Swift
+```swift
 let numbers = [3, 7, 4, -2, 9, -6, 10, 1]
 let startingWithNegative = numbers.drop(while: { $0 > 0 })
 // startingWithNegative == [-2, 9, -6, 10, 1]
@@ -190,7 +190,7 @@ let startingWithNegative = numbers.drop(while: { $0 > 0 })
 `func filter((Self.Element) -> Bool) -> [Self.Element]`
 
 return ({ 조건 } 에 부합하는 요소들만 추려진 [Self.Element])
-```Swift
+```swift
 let cast = ["Vivien", "Marlon", "Kim", "Karl"]
 let shortNames = cast.filter { $0.count < 5 }
 print(shortNames)
@@ -202,7 +202,7 @@ print(shortNames)
 `func map<T>((Self.Element) -> T) -> [T]`
 
 return ({ 조건 } 에 부합하도록 요소를 변형시킨 [Self.Element])
-```Swift
+```swift
 let cast = ["Vivien", "Marlon", "Kim", "Karl"]
 let lowercaseNames = cast.map { $0.lowercased() }
 // 'lowercaseNames' == ["vivien", "marlon", "kim", "karl"]
@@ -214,7 +214,7 @@ let letterCounts = cast.map { $0.count }
 `func compactMap<ElementOfResult>((Self.Element) -> ElementOfResult?) -> [ElementOfResult]`
 
 return (optional을 unwrapping 하고 nil이 있다면 제외하는 [Self.Element])
-```Swift
+```swift
 let possibleNumbers = ["1", "2", "three", "///4///", "5"]
 let mapped: [Int?] = possibleNumbers.map { str in Int(str) }
 print(mapped)
@@ -229,7 +229,7 @@ print(compactMapped)
 `func flatMap<SegmentOfResult>((Self.Element) -> SegmentOfResult) -> [SegmentOfResult.Element]`
 
 return (sequence안의 sequence 각각을 extend하는 [Self.Element])
-```Swift
+```swift
 let numbers = [1, 2, 3, 4]
 
 let mapped = numbers.map { Array(repeating: $0, count: $0) }
@@ -243,7 +243,7 @@ let flatMapped = numbers.flatMap { Array(repeating: $0, count: $0) }
 return (주어진 클로저를 이용하여 시퀀스의 요소를 결합한 value)
 
 `func reduce<Result>(Result, (Result, Self.Element) -> Result) -> Result`
-```Swift
+```swift
 let numbers = [1, 2, 3, 4]
 let numberSum = numbers.reduce(0, { x, y in
     x + y
@@ -255,7 +255,7 @@ let numberSum = numbers.reduce(0, { x, y in
 return  (주어진 클로저를 이용하여 시퀀스의 요소를 결합한 sequence)
 
 `func reduce<Result>(into: Result, (inout Result, Self.Element) -> ()) -> Result`
-```Swift
+```swift
 let letters = "abracadabra"
 let letterCount = letters.reduce(into: [:]) { counts, letter in
     counts[letter, default: 0] += 1
@@ -273,7 +273,7 @@ let letterCount = letters.reduce(into: [:]) { counts, letter in
 for-in루프와 같은 역할을 하지만 주어진 클로저를 이용하여 사용.
 
 `func forEach((Self.Element) -> Void)`
-```Swift
+```swift
 let numberWords = ["one", "two", "three"]
 for word in numberWords {
     print(word)
@@ -292,7 +292,7 @@ numberWords.forEach { word in
 (index, value) 형태로 Sequence의 요소를 받을 수 있다.
 
 `func enumerated() -> EnumeratedSequence<Self>`
-```Swift
+```swift
 for (n, c) in "Swift".enumerated() {
     print("\(n): '\(c)'")
 }
@@ -314,7 +314,7 @@ Required.
 return (정렬된 Array)
 
 `func sorted() -> [Self.Element]`
-```Swift
+```swift
 let students: Set = ["Kofi", "Abena", "Peter", "Kweku", "Akosua"]
 let sortedStudents = students.sorted()
 print(sortedStudents)
@@ -325,7 +325,7 @@ print(sortedStudents)
 return (조건자를 이용하여 정렬할 방향을 구한후 정렬된 Array)
 
 `func sorted(by: (Self.Element, Self.Element) -> Bool) -> [Self.Element]`
-```Swift
+```swift
 let descendingStudents = students.sorted(by: >)
 print(descendingStudents)
 // Prints "["Peter", "Kweku", "Kofi", "Akosua", "Abena"]"
@@ -335,7 +335,7 @@ print(descendingStudents)
 return (reversed 요소들을 포함하는 Array)
 
 `func reversed() -> [Self.Element]`
-```Swift
+```swift
 let numArray = 0...9
 let reversedNumArray = numArray.reversed()
 print(Array(reversedNumArray))
@@ -347,7 +347,7 @@ print(Array(reversedNumArray))
 return (shuffled 요소들을 포함하는 Array))
 
 `func shuffled() - > [Self.Element]`
-```Swift
+```swift
 let numbers = 0...9
 let shuffledNumbers = numbers.shuffled()
 // shuffledNumbers == [1, 7, 6, 2, 8, 9, 4, 3, 5, 0]
@@ -357,7 +357,7 @@ let shuffledNumbers = numbers.shuffled()
 return (sequence의 요소들이 String일 때 default list format 스타일로 표현되어진 String)
 
 `func formatted() -> String`
-```Swift
+```swift
 ["Kristin", "Paul", "Ana", "Bill"].formatted()
 // Kristin, Paul, Ana, and Bill
 ```
@@ -366,7 +366,7 @@ return (sequence의 요소들이 String일 때 default list format 스타일로 
 return (sequence의 요소들이 String일 때 제공하는 list format 스타일로 표현되어진 String)
 
 `func formatted<S>(S) -> S.FormatOutput`
-```Swift
+```swift
 [1, 3, 5, 7].formatted(.list(memberStyle: .descriptive, type: .and, width: .narrow))
 // "one, three, five, & seven"
 
@@ -391,7 +391,7 @@ isSeparator(내부에서 사용할 파라미터 이름) == whereSeparator(외부
 sequence를 분리할 구분자를 클로저를 통해서 전달한다.
 
 `func split(maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) -> Bool) -> [ArraySlice<Self.Element>]`
-```Swift
+```swift
 let line = "BLANCHE:   I don't want realism. I want magic!"
 print(line.split(whereSeparator: { $0 == " " })
         .map{ String($0) })
@@ -420,7 +420,7 @@ return (Sequence를 separator에 의해 구분되어진 [Self.Element])
 separator: 구분자
 
 `func split(separator: Self.Element, maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true) -> [ArraySlice<Self.Element>]`
-```Swift
+```swift
 let line = "BLANCHE:   I don't want realism. I want magic!"
 print(line.split(separator: " ")
           .map(String.init))
@@ -440,7 +440,7 @@ print(line.split(separator: " ", omittingEmptySubsequences: false)
 return (시퀀스들의 시퀀스의 연속된 요소들)
 
 `func joined() -> FlattenSequence<Self>`
-```Swift
+```swift
 let ranges = [0..<3, 8..<10, 15..<17]
 
 // A for-in loop over 'ranges' accesses each range:
@@ -462,7 +462,7 @@ for index in ranges.joined() {
 return (saparator로 구분지어진 시퀀스들의 시퀀스의 연속된 요소들)
 
 `func joined(separator: String = "") -> String`
-```Swift
+```swift
 let cast = ["Vivien", "Marlon", "Kim", "Karl"]
 let list = cast.joined(separator: ", ")
 print(list)
@@ -473,7 +473,7 @@ print(list)
 return (saparator로 구분지어진 시퀀스들의 시퀀스의 연속된 요소들)
 
 `func joined<Separator>(separator: Separator) -> JoinedSequence<Self>`
-```Swift
+```swift
 let nestedNumbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 let joined = nestedNumbers.joined(separator: [-1, -2])
 print(Array(joined))
@@ -485,7 +485,7 @@ print(Array(joined))
 return (같은 시퀀스(같은 요소, 순서) ? true : false)
 
 `func elementsEqual<OtherSequence>(OtherSequence) -> Bool`
-```Swift
+```swift
 let a = 1...3
 let b = 1...10
 
@@ -499,7 +499,7 @@ print(a.elementsEqual([1, 2, 3]))
 return (시퀀스가 다른 시퀀스로 시작해 ? true : false)
 
 `func starts<PossiblePrefix>(with: PossiblePrefix) -> Bool`
-```Swift
+```swift
 let a = 1...3
 let b = 1...10
 
@@ -512,7 +512,7 @@ print(b.starts(with: a))
 return (sequence가 사전순으로 앞에 있어 ? true : false)
 
 `func lexicographicallyPrecedes<OtherSequence>(OtherSequence) -> Bool`
-```Swift
+```swift
 let a = [1, 2, 2, 2, 3]
 let b = [1, 2, 3, 4]
 
