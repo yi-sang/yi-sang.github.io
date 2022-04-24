@@ -16,16 +16,44 @@ tags: ["스위프트", "코딩 테스트", "Swift"]
 문자열부터 시작하여 꾸준히 풀어봐야겠다.
 
 # 1. 문자열
+<details>
+<summary>문제 목차</summary>
+<div markdown="1">
 
-|          순번          |        문제 번호         |        문제 이름         |         난이도          |        풀이 링크         |
+|          순번          |        문제 번호         |        문제 이름         |         난이도          |        풀이 링크        |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 | <a href="https://www.acmicpc.net/problem/3029" target="_blank">3029</a> | <a href="https://www.acmicpc.net/problem/3029" target="_blank">경고</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/3.svg"/> |  [경고](#경고---3029) |
-| 01 | <a href="https://www.acmicpc.net/problem/11720" target="_blank">11720</a> | <a href="https://www.acmicpc.net/problem/11720" target="_blank">숫자의 합</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/> | [숫자의 합](#숫자의-합---11720)|
-| 02 | <a href="https://www.acmicpc.net/problem/11365" target="_blank">11365</a> | <a href="https://www.acmicpc.net/problem/11365" target="_blank">!밀비 급일</a> | ![링크](https://static.solved.ac/tier_small/4.svg) | [!밀비 급일](#밀비-급일---11365) |
-| 03 | <a href="https://www.acmicpc.net/problem/9046" target="_blank">9046</a> | <a href="https://www.acmicpc.net/problem/9046" target="_blank">복호화</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/> | [복호화](#복호화---9046) |
-| 04 | <a href="https://www.acmicpc.net/problem/10798" target="_blank">10798</a> | <a href="https://www.acmicpc.net/problem/10798" target="_blank">세로읽기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/> | [세로읽기](#세로읽기---10798) |
-| 05 | <a href="https://www.acmicpc.net/problem/20154" target="_blank">20154</a> | <a href="https://www.acmicpc.net/problem/20154" target="_blank">이 구역의 승자는 누구야?!</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/> | [이 구역의 승자는 누구야?!](#이-구역의-승자는-누구야---20154)|
+| 00 | <a href="https://www.acmicpc.net/problem/3029" target="_blank">3029</a> | <a href="https://www.acmicpc.net/problem/3029" target="_blank">경고</a> | ![](/assets/images/b3.svg){: width="4%" height="4%"} |  [바로가기](#경고---3029) |
+| 01 | <a href="https://www.acmicpc.net/problem/11720" target="_blank">11720</a> | <a href="https://www.acmicpc.net/problem/11720" target="_blank">숫자의 합</a> | ![](/assets/images/b2.svg){: width="4%" height="4%"} | [바로가기](#숫자의-합---11720)|
+| 02 | <a href="https://www.acmicpc.net/problem/11365" target="_blank">11365</a> | <a href="https://www.acmicpc.net/problem/11365" target="_blank">!밀비 급일</a> | ![](/assets/images/b2.svg){: width="4%" height="4%"} | [바로가기](#밀비-급일---11365) |
+| 03 | <a href="https://www.acmicpc.net/problem/9046" target="_blank">9046</a> | <a href="https://www.acmicpc.net/problem/9046" target="_blank">복호화</a> | ![](/assets/images/b1.svg){: width="4%" height="4%"} | [바로가기](#복호화---9046) |
+| 04 | <a href="https://www.acmicpc.net/problem/10798" target="_blank">10798</a> | <a href="https://www.acmicpc.net/problem/10798" target="_blank">세로읽기</a> | ![](/assets/images/b1.svg){: width="4%" height="4%"} | [바로가기](#세로읽기---10798) |
+| 05 | <a href="https://www.acmicpc.net/problem/20154" target="_blank">20154</a> | <a href="https://www.acmicpc.net/problem/20154" target="_blank">이 구역의 승자는 누구야?!</a> | ![](/assets/images/b1.svg){: width="4%" height="4%"} | [바로가기](#이-구역의-승자는-누구야---20154)|
 
+</div>
+</details>
+
+# 2. 이분 탐색
+<details>
+<summary>문제 목차</summary>
+<div markdown="1">
+
+|          순번          |         문제 번호         |        문제 이름         |         난이도          |        풀이 링크         |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| 00 | <a href="https://www.acmicpc.net/problem/1789" target="_blank">1789</a> | <a href="https://www.acmicpc.net/problem/1789" target="_blank">수들의 합</a> | ![](/assets/images/s5.svg){: width="4%" height="4%"} | [바로가기](#수들의-합---1789) |
+| 01 | <a href="https://www.acmicpc.net/problem/2417" target="_blank">2417</a> | <a href="https://www.acmicpc.net/problem/2417" target="_blank">정수 제곱근</a> | ![](/assets/images/s4.svg){: width="4%" height="4%"} | [바로가기](#정수-제곱근---2417) |
+| 02 | <a href="https://www.acmicpc.net/problem/10815" target="_blank">10815</a> | <a href="https://www.acmicpc.net/problem/10815" target="_blank">숫자 카드</a> | ![](/assets/images/s4.svg){: width="4%" height="4%"} | [바로가기](#숫자-카드---10815) |
+| 03 | <a href="https://www.acmicpc.net/problem/2805" target="_blank">2805</a> | <a href="https://www.acmicpc.net/problem/2805" target="_blank">나무 자르기</a> | ![](/assets/images/s3.svg){: width="4%" height="4%"} | [바로가기](#나무-자르기---2805) |
+| 04 | <a href="https://www.acmicpc.net/problem/1654" target="_blank">1654</a> | <a href="https://www.acmicpc.net/problem/1654" target="_blank">랜선 자르기</a> |![](/assets/images/s3.svg){: width="4%" height="4%"} | [바로가기](#랜선-자르기---1654) |
+| 05 | <a href="https://www.acmicpc.net/problem/2512" target="_blank">2512</a> | <a href="https://www.acmicpc.net/problem/2512" target="_blank">예산</a> | ![](/assets/images/s3.svg){: width="4%" height="4%"} | [바로가기](#예산---2512) |
+| 06 | <a href="https://www.acmicpc.net/problem/19637" target="_blank">19637</a> | <a href="https://www.acmicpc.net/problem/19637" target="_blank">IF문 좀 대신 써줘</a> | ![](/assets/images/s3.svg){: width="4%" height="4%"} | [바로가기](#IF문-좀-대신-써줘---19637) |
+| 07 | <a href="https://www.acmicpc.net/problem/11663" target="_blank">11663</a> | <a href="https://www.acmicpc.net/problem/11663" target="_blank">선분 위의 점</a> | ![](/assets/images/s3.svg){: width="4%" height="4%"} | [바로가기](#선분-위의-점---11663) |
+| 08 | <a href="https://www.acmicpc.net/problem/22871" target="_blank">22871</a> | <a href="https://www.acmicpc.net/problem/22871" target="_blank">징검다리 건너기 (large)</a> | ![](/assets/images/s1.svg){: width="4%" height="4%"} | [바로가기](#징검다리-건너기-large---22871) |
+
+</div>
+</details>
+
+# 문제
+## 1. 문자열
 ## 경고 - 3029
 ```swift
 import Foundation
@@ -153,7 +181,9 @@ print(answer)
 ```swift
 import Foundation
 
-let dict: [Character:Int] = ["A":3, "B":2, "C":1, "D":2, "E":3, "F":3, "G":3, "H":3, "I":1, "J":1, "K":3, "L":1, "M":3, "N":3, "O":1, "P":2, "Q":2, "R":2, "S":1, "T":2, "U":1, "V":1, "W":2, "X":2, "Y":2, "Z":1]
+let dict: [Character:Int] = ["A":3, "B":2, "C":1, "D":2, "E":3, "F":3, \
+ "G":3, "H":3, "I":1, "J":1, "K":3, "L":1, "M":3, "N":3, "O":1, "P":2, \
+ "Q":2, "R":2, "S":1, "T":2, "U":1, "V":1, "W":2, "X":2, "Y":2, "Z":1]
 
 let input = Array(readLine()!)
 var totalSum = 0
@@ -166,3 +196,5 @@ if (totalSum % 10) % 2 == 1 {
     print("You're the winner?")
 }
 ```
+
+## 2. 이분 탐색
