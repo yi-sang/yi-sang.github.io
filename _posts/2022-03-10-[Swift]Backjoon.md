@@ -12,8 +12,9 @@ tags: ["스위프트", "코딩 테스트", "Swift"]
 풀어보니 스위프트만의 매력이 있는 것 같다. 사용할 수 있는 메소드가 있다면 최대한 사용해보려고 한다. 시간 단축에 큰 힘이 될 것 같다. `import foundation`은 필요할 때와 불 필요할 때를 구분짓고 싶지만 사실 1분 1초가 급한 상황에서 그게 무슨 의미가 있을까 싶어 그냥 무조건 쓰기로 했다.
 
 [문제 모음](https://github.com/tony9402/baekjoon)을 활용하여 문제 순서를 정하였다. 원래 페이지 하나에 문제 하나씩 했다면 이제는 한 페이지에 모두 정리하려한다.
-다른 사람이 찾기에는 이전 방법이 좋겠지만 게시글 작성만 하고 다시 찾아보지 않는 나를 보며 한 페이지에 정리하기로 했다.
 문자열부터 시작하여 꾸준히 풀어봐야겠다.
+
+---
 
 # 1. 문자열
 <details>
@@ -51,6 +52,8 @@ tags: ["스위프트", "코딩 테스트", "Swift"]
 
 </div>
 </details>
+
+---
 
 # 문제
 ## 1. 문자열
@@ -198,3 +201,85 @@ if (totalSum % 10) % 2 == 1 {
 ```
 
 ## 2. 이분 탐색
+
+## 수들의 합 - 1789
+
+~~~swift
+import Foundation
+
+let N = Int(readLine()!)!
+var answer = 0
+var i = 1
+var sum = 0
+while(true) {
+    sum += i
+    answer += 1
+    i += 1
+    if sum >= N {
+        if sum == N {
+            break
+        }
+        answer -= 1
+        break
+    }
+}
+print(answer)
+~~~
+
+## 정수 제곱근 - 2417
+~~~swift
+import Foundation
+
+let n = UInt64(readLine()!)!
+var start:UInt64 = 0
+var end = UInt64(sqrt(Double(UInt64.max))) + 1
+if n == 0 {
+    print(0)
+} else {
+    while (start <= end) {
+        let mid = (start + end) / 2
+        
+        if n <= mid * mid {
+            end = mid - 1
+        } else {
+            start = mid + 1
+        }
+    }
+    print(end + 1)
+}
+~~~
+
+## 숫자 카드 - 10815
+~~~swift
+import Foundation
+
+let n = Int(readLine()!)!
+var myCard = readLine()!.split(separator: " ").map{ Int($0)! }
+let m = Int(readLine()!)!
+var checkCard = readLine()!.split(separator: " ").map{ Int($0)! }
+
+myCard.sort()
+for card in checkCard {
+    var start = myCard.startIndex
+    var end = myCard.endIndex - 1
+    // end = n - 1
+    // sequence.endIndex = sequence의 마지막 인덱스 + 1
+    var flag = false
+    while (start <= end) {
+        let mid = (start + end) / 2
+        if myCard[mid] >= card {
+            if myCard[mid] == card {
+                flag = true
+            }
+            end = mid - 1
+        } else {
+            start = mid + 1
+        }
+    }
+    if flag {
+        print(1, terminator: " ")
+    } else {
+        print(0, terminator: " ")
+    }
+}
+~~~

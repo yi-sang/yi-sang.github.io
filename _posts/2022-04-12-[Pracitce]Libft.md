@@ -40,7 +40,7 @@ ps. C 언어 표준에서는 char의 부호가 정해져 있지 않다.
 
 -> 함수의 인자로 void*를 받고 메모리에 접근하기 위해서는 unsigned int *를 사용하여 안전하게 메모리 주소값을 처리하자.
 
-```C
+```c
 void ft_bzero(void *s, size_t n)
 {
     unsigned char   *start_ptr;
@@ -60,7 +60,7 @@ const (char *)p
 포인터 p는 char인 데 값을 바꿀 수 없다.
 
 포인터지만 안에 값을 바꿀 자격은 없다.
-```C
+```c
 int main(void)
 {
     char str[20] = "Swift";
@@ -78,7 +78,7 @@ int main(void)
 char 형을 가리키는 주소값이 상수이다.
 
 한 주소값만 바라보는 해바라기
-```C
+```c
 int main(void)
 {
     char str[20] = "Swift";
@@ -131,7 +131,7 @@ unsigned int는 4,294,967,295까지 표현한다.
 해제 - free
 
 ## null가드
-```C
+```c
 tmp = (char *)malloc(sizeof(char) * size)
 if (!tmp)
     return (0);
