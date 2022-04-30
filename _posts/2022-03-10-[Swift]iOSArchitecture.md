@@ -1,7 +1,7 @@
 ---
 title: 'iOS Architecture'
 categories: ['iOS']
-post-image: ../assets/images/Swift-Logo.png
+post-image: ../assets/images/Apple-iOS.png
 tags: ["MVC", "MVVM", "MVP", "Architecture", "Design Pattern"]
 ---
 # `경고 - 제 주관적인 생각과 이해가 많이 포함되어 있습니다.`
