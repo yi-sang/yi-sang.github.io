@@ -5,6 +5,7 @@ post-image: ../assets/images/Swift-Logo.png
 tags: ["RxSwift", "MVVM"]
 ---
 
+# `경고 - 제 주관적인 생각과 이해가 많이 포함되어 있습니다.`
 # RxSwift 시작
 ![rx](https://user-images.githubusercontent.com/80687913/158733963-bdfd586b-dbf8-4558-95ad-57c1a7a424b1.png)
 
