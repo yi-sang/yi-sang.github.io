@@ -1,6 +1,6 @@
 ---
 title: 'RxSwift 시작하기'
-categories: ['Swift']
+categories: ['iOS']
 post-image: ../assets/images/Swift-Logo.png
 tags: ["RxSwift", "MVVM"]
 ---

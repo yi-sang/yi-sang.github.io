@@ -1,6 +1,6 @@
 ---
 title: 'iOS Architecture'
-categories: ['Swift']
+categories: ['iOS']
 post-image: ../assets/images/Swift-Logo.png
 tags: ["MVC", "MVVM", "MVP", "Architecture", "Design Pattern"]
 ---
